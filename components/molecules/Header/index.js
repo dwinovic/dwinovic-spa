@@ -12,7 +12,7 @@ export default function Header() {
         <Nav />
       </div>
       <div className="w-3/12 text-right">
-        <Button>Contact</Button>
+        <Button variant="outline-yellow">Contact</Button>
       </div>
     </div>
   );
