@@ -10,6 +10,7 @@ module.exports = {
         mono: ['IBM Plex Mono', 'ui-monospace'],
       },
       colors: {
+        skill: '#F7F7FB',
         green: {
           50: '#fffefa',
           100: '#fffce6',
@@ -38,6 +39,9 @@ module.exports = {
           'background-image': 'url(/bg-hero.png)',
           'background-repeat': 'no-repeat',
           'background-size': 'cover',
+        },
+        '.shadow-card': {
+          'box-shadow': '0px 15px 30px rgba(0, 0, 0, 0.1)',
         },
       };
       addUtilities(utilities);

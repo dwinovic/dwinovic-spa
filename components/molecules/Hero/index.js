@@ -5,7 +5,7 @@ import { Button } from '../../atoms';
 export default function Hero() {
   return (
     <div>
-      <div className="bg-hero h-[950px] ">
+      <div className="bg-hero h-[950px] mb-14 ">
         <div className="container mx-auto">
           <Header />
           <div className="text-center mt-60">
